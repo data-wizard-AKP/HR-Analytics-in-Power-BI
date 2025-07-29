@@ -71,6 +71,12 @@ This leads to reactive decision-making and missed opportunities to intervene bef
 | PerformanceRating[SelfRating]              | RatingLevel[RatingID]      | Many→One     | ✔      | Self-assessment rating lookup                    |
 | PerformanceRating[ManagerRating]           | RatingLevel[RatingID]      | Many→One     | ✔      | Manager’s rating lookup                          |
 
+### 📸 HR Analytics Power BI Dashboard – Visuals
+<img src="https://github.com/data-wizard-AKP/HR-Analytics-in-Power-BI/blob/main/Data_base/PAGE_1.png?raw=true" width="100%" style="margin-bottom:20px;" />
+<img src="https://github.com/data-wizard-AKP/HR-Analytics-in-Power-BI/blob/main/Data_base/PAGE_2.png?raw=true" width="100%" style="margin-bottom:20px;" />
+<img src="https://github.com/data-wizard-AKP/HR-Analytics-in-Power-BI/blob/main/Data_base/PAGE_3.png?raw=true" width="100%" style="margin-bottom:20px;" />
+<img src="https://github.com/data-wizard-AKP/HR-Analytics-in-Power-BI/blob/main/Data_base/PAGE_4.png?raw=true" width="100%" />
+
 ### 3. DAX & RLS Implementation
 
 - **Dynamic hire-date context**  
@@ -88,9 +94,7 @@ CALCULATE(
     USERELATIONSHIP(Employee[TerminationDate], DimDate[Date])
   )
 
----
-
--🔐 **Row-Level Security DAX**
+- 🔐 **Row-Level Security DAX**
  
 [DeptFilter] = 
 LOOKUPVALUE(
