@@ -125,6 +125,27 @@ This solution transforms raw HR data into actionable intelligence, allowing HR l
 - 📊 Forecast staffing needs  
 - 🚨 Identify at-risk employees  
 - 🎯 Implement targeted retention initiatives
+---
+ ## 👤 Author
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/data-wizard-AKP/customer-churn-analysis-python-databel/main/Python_code/Arun.jpeg" alt="Arun" width="120" style="border-radius:50%;" />
+</p>
+
+<p align="center">
+  <strong>Arun</strong> – Data Analyst<br/>
+  • Power BI, Python, SQL & Excel<br/>
+  • Crafting data stories & predictive solutions
+</p>
+
+---
+
+## 📢 Share & Feedback
+
+Enjoyed this analysis? Please ⭐ the repo, drop feedback, or connect via LinkedIn to discuss collaboration!  
+
+
+
 
 
 
